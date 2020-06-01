@@ -3,7 +3,7 @@ from time import sleep
 import platform
 from selenium.webdriver.chrome.options import Options
 options = Options()
-options.add_argument(" --incognito --start-maximized –-disable-notifications ")
+options.add_argument(" --incognito --start-maximized  ")
                                        
 if platform.system() == "Linux":                                # get the driver for individual browser
     driver = webdriver.Chrome('/usr/bin/chromedriver')
@@ -32,7 +32,7 @@ def multi():
 
     for i in range(count):
         msg_box.send_keys(msg)
-        driver.find_element_by_xpath('(//span[@class="mat-button-wrapper"])[42]').click()
+        driver.find_element_by_xpath('(//span[@class="mat-button-wrapper"])[40]').click()
 
 
 if __name__ == "__main__":        #loop for true value of sucess 
