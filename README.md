@@ -26,7 +26,7 @@ git clone https://github.com/heykush/Google-Message-Bot.git
  pip install time
 ~~~
 
-***You need to download [CromeDriver](https://chromedriver.chromium.org/downloads) here.***
+***You need to download [ChromeDriver](https://chromedriver.chromium.org/downloads) here.***
 *To give the path in webdriver*
 
 <!-- USAGE EXAMPLES -->
